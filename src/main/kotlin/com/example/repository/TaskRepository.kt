@@ -5,7 +5,7 @@ import com.example.model.Task
 
 object TaskRepository {
     private val tasks = mutableListOf(
-        Task("cleaning", "remove all connections, Power -- back to me!", Priority.MEDIUM),
+        Task("cleaning", "remove all connections, Power -- back to me!", Priority.LOW),
         Task("reading", "Read Manifest-Nirvana article, then correct to publish it", Priority.HIGH),
         Task("planning", "Assume the general line images of next Lunar Cycle", Priority.HIGH),
         Task("researching", "Dive in hexagram level descriptions of number 44", Priority.LOW),
